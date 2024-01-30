@@ -1,0 +1,20 @@
+.contact-content {
+  height: 75vh;
+  padding: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-content::after {
+  content: "";
+  background-image: url(/img/back-taylor.jpg);
+  opacity: 0.2;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  background-repeat: no-repeat;
+  background-position: top;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
